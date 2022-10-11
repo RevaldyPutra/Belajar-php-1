@@ -56,6 +56,8 @@
 
     echo "</ol>";
 
+    echo "<h3> Soal 3 </h3>";
+    
     /*
             SOAL No 3
             Susun data-data berikut ke dalam bentuk Asosiatif Array didalam Array Multidimensi
@@ -115,10 +117,37 @@
                             [Aliases] => El
                             [Status] => Alive
                         )
-
+12
                 )
             
         */
+$Aktor = array(
+
+// data array 
+    array( "Nama"=>"Will Byers",
+           "Age"=>"12",
+           "Aliases"=>"Will the Wise",
+           "Status"=>"Alive"),
+
+    array( "Nama"=>"Mike Wheeler",
+           "Age"=>"12",
+           "Aliases"=>"Dugeon Master",
+           "Status"=>"Alive"),
+
+    array( "Nama"=>"Jim Hooper",
+           "Age"=>"43",
+           "Aliases"=>"Chief Hopper",
+           "Status"=>"Deceased"),
+           
+    array( "Nama"=>"Eleven",
+           "Age"=>"12",
+           "Aliases"=>"El",
+           "Status"=>"Alive"),       
+           
+);
+
+//untuk menamppilkan data array
+echo '<pre>'; print_r($Aktor); echo '</pre>';
     ?>
 </body>
 
